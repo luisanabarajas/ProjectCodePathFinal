@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+.Event {
+  width: 100px;
+}
+
+.Event h6 {
+  line-height: 0px;
+  font-size: 12px;
+  align-content: center;
+}
+
+.Event h5 {
+  line-height: 0px;
+  color: #455EB5;
+  font-size: 20px;
+  align-content: center;
+}
+
+.Event h2 {
+  line-height: 0px;
+  color: gray;
+  font-size: 12px;
+  align-content: center;
+  padding-bottom: 10px;
+}
+
+.pink {
+  background: pink;
+}
+
+.blue {
+  background: rgb(190, 219, 229);
+}
+
+.green {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 5rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+} 
+
+.yellow {
+  background: lightyellow;
+} 
+
+.Event img {
+  width: auto; /* Set the width of the image */
+  height: 300px; /* Set the height of the image */
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center the image within the cell */
+}
+
+
+
+.Event button {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    margin: 20px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
